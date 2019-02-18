@@ -17,8 +17,7 @@ class App extends Component {
 
     const {value} = event.target;
     this.setState({users : value});
-
-    // not started to type yet
+    
     if(value.length === 0) {
       this.setState({
         noQuery: true,
